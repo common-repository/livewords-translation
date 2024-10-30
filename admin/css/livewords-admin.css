@@ -1,0 +1,40 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.bulk_translate_posts label {
+  width: 13%; }
+.bulk_translate_posts .input-fields {
+  width: 25%;
+  white-space: nowrap; }
+.bulk_translate_posts .bulk_translate_posts_response {
+  width: 60%; }
+
+.bulk_translate_taxonomies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.livewords-translation-log-label {
+  user-select: none; }
+  .livewords-translation-log-label .toggle-indicator:before {
+    transform: rotate(100grad);
+    margin: 1px 0 0 0;
+    position: absolute; }
+  .livewords-translation-log-label.open .toggle-indicator:before {
+    transform: rotate(200grad); }
+
+.livewords-translation-log {
+  transition: all 0.5s;
+  white-space: pre-line;
+  max-height: 0;
+  overflow: auto;
+  font-family: monospace;
+  font-size: 10px; }
+  .livewords-translation-log.open {
+    max-height: 200px; }
+
+.data-table td {
+  border-top: 1px solid #d9d9d9; }
+
+/*# sourceMappingURL=livewords-admin.css.map */
